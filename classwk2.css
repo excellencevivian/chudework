@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+.navbaby{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px ;
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li:hover{
+    background-color: purple;
+    color: white;
+    transition: 1s;
+    font-size: 20px;
+}
+header div{
+    background: linear-gradient(rgba(103, 253, 103, 0.721),rgb(11, 11, 11)),url(./image/image1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background:transparent;
+    color: white;
+    border: 1px  solid white;
+    margin-left: 15px;
+}
+button:hover{
+    background-color: green;
+
+}
+ header h1{
+    font-size: 100px;
+}
+.secondpage{
+    display: flex;
+}
+.bull{
+    text-align: center;
+    margin: 50px;
+}
+.secpage{
+    padding: 40px;
+    margin: 20px;
+}
+.secimg{
+    padding: 70px;
+}
+section h3{
+    color: darkcyan;
+    font-size: 40px;
+}
+.secpage p{
+    padding: 10px  40px;
+}
+
+.bull2{
+    text-align: center;
+    padding: 40px;
+    
+}
+.thirdimg{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 40px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.thirdimg .pic1{
+    background: url(./image/image1.jpeg);
+    width: 40%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thirdimg .pic2{
+    background: url(./image/image1.jpeg);
+    width: 40%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thirdimg .pic3{
+    background: url(./image/image1.jpeg);
+    width: 40%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.thirdimg .pic4{
+    background: url(./image/image1.jpeg);
+    width: 40%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 255, 0.393),red),url(./image/image1.jpeg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: -1;
+    transition: 1s;
+
+}
+.inner hr{
+    border: 1.5px solid white;
+    width: 70%;
+    margin: 5px 0;
+}
+.inner:hover{
+    opacity: 1;
+}
+.thirdpage{
+    background-color: beige;
+}
+
+/* end of thirdpage */
+
+.test{
+    text-align: center;
+}
+.test2{
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.new{
+    width: 33%;
+    background-color: white;
+    box-shadow: 7px 7px 12px rgba(228, 19, 19, 0.765);
+    padding: 10px 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.new div{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+
+}
+.new div img{
+    border-radius: 7px;
+}
+.new:hover{
+    transform: translateY(-10px);
+}
+.fourthpage{
+    background-color: pink;
+}
+/* end of fourth page */
+
+.leaf{
+    background: linear-gradient(rgb(6, 198, 6),white);
+    width: 70px;
+    height: 50px;
+    margin: auto;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transform: rotate(10deg);
+}
+.cont{
+    text-align: center;
+}
+.footer{
+    background: linear-gradient(rgba(245, 245, 245, 0.534), rgba(245, 245, 245, 0.454)) url(/image/man\ thinking.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 60px 20px;
+    height: 90vh;
+
+}
+.lastpage{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+.lastpage p{
+    font-size: 20px;
+}
